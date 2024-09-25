@@ -1,0 +1,45 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+env/
+
+# Data files (optional, if not necessary for the repo)
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# Ignore large datasets
+data/
+
+# Ignore model files
+*.joblib
+*.model
+*.h5
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Mac OS specific
+.DS_Store
